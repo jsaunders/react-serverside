@@ -7,7 +7,7 @@ var Todo = require('../public/javascripts/todo');
 /* GET home page. */
 router.get('/todo', function(req, res) {
     var props = {
-        items: [0, 1]
+        items: [0, 1, 2, 3]
     }
     var todo = React.renderComponentToString(Todo(props));
     res.setHeader('Content-Type', 'text/html')
