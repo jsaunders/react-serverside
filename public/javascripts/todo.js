@@ -5,7 +5,6 @@ var React = require('react'),
     ul = DOM.ul,
     li = DOM.li
 
-window.React = React;
 // This is just a simple example of a component that can be rendered on both
 // the server and browser
 

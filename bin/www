@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var debug = require('debug')('react-serverside3');
+var debug = require('debug')('react-serverside');
 var app = require('../app');
 
 app.set('port', process.env.PORT || 3000);
